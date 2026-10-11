@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashimov Eldar's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+            <button id="themeBtn" type="button">Dark Mode</button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h1>Ashimov Eldar's Portfolio</h1>
+            <h2>About</h2>
+            <p>
+                I am a student of Kazakh British Technical University!
+            </p>
+            <p>
+                Right now I am building my portfolio website to show my skills
+            </p>
+            <p>
+                I hope my teacher will like it and give me 7.5 points :3
+            </p>
+        </section>
+
+        <section id="projects">
+            <h2>You can see my projects here:</h2>
+
+            <div class="projects">
+                <article>
+                    <h3>Interactive and Web Application Development</h3>
+                    <p>A practice page by using HTML and CSS</p>
+                    <a href="https://github.com/Yeldar-hub/iwamad-practice" target="_blank" rel="noopener noreferrer">
+                        Repository
+                    </a>
+                </article>
+
+                <article>
+                    <h3>Principles of Programming 2</h3>
+                    <p>From basic Python codes to simple game development</p>
+                    <a href="https://github.com/Yeldar-hub/PP2_Labs" target="_blank" rel="noopener noreferrer">
+                        Repository
+                    </a>
+                </article>
+
+                <article>
+                    <h3>Telegram Bot</h3>
+                    <p>A bot for KBTU students</p>
+                    <a href="https://t.me/StudLife_KBTU_bot" target="_blank" rel="noopener noreferrer">
+                        Telegram Bot
+                    </a>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Feel free to contact me on Telegram!</p>
+
+            <div class="contact-links">
+                <a href="https://t.me/ashidax7" target="_blank" rel="noopener noreferrer">
+                    Telegram
+                </a>
+            </div>
+
+            <form id="contactForm" novalidate>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message"></textarea>
+
+                <button type="submit">Send Message</button>
+                <p id="result" role="status" aria-live="polite"></p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Ashimov Eldar's Portfolio</p>
+    </footer>
+</body>
+</html>
